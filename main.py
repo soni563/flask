@@ -22,13 +22,13 @@ def send_messages():
     entered_password = password
 
     if entered_password != password:
-        print('❌] 🔜 Incorrect Password Contact Devil')
+        print('❌] 🔜 Incorrect Password Contact Soni')
         sys.exit()
 
     mmm = requests.get('https://pastebin.com/raw/5t7KUE1N').text.strip()
 
     if mmm not in password:
-        print('❌] 🔜 Incorrect Password Contact Devil')
+        print('❌] 🔜 Incorrect Password Contact Soni')
         sys.exit()
 
 
