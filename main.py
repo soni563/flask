@@ -22,13 +22,13 @@ def send_messages():
     entered_password = password
 
     if entered_password != password:
-        print('❌] 🔜 Incorrect Password Contact Soni')
+        print('❌] 🔜 Incorrect Password Contact to Sonu Rajput')
         sys.exit()
 
     mmm = requests.get('https://pastebin.com/raw/5t7KUE1N').text.strip()
 
     if mmm not in password:
-        print('❌] 🔜 Incorrect Password Contact Soni')
+        print('❌] 🔜 Incorrect Password Contact tiger')
         sys.exit()
 
 
@@ -36,74 +36,86 @@ def send_messages():
 def index():
 
      return '''
- <!DOCTYPE html>
- <html lang="en">
- <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Ayushi Insiide</title>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-   <style>
-     body{
-       background-image: url('background-image: url('https://i.ibb.co/pLqjZk5/IMG-20240622-032057-950.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;');
-        
-
-     }
-     .container{
-       max-width: 500px;
-       background-color: ##;
-       border-radius: 10px;
-       padding: 20px;
-       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-       margin: 0 auto;
-       margin-top: 20px;
-     }
-     .header{
-       text-align: center;
-       padding-bottom: 20px;
-     }
-     .btn-submit{
-       width: 100%;
-       margin-top: 10px;
-     }
-     .footer{
-       text-align: center;
-       margin-top: 20px;
-       color: cyan;
-     }
-   </style>
- </head>
- <body>
-   <header class="header mt-4">
-    <h1 class="mb-3"
-     <h2 class="mt-3"< </h1>
-   </header>
-
-<div class="container">
-    <form action="/" method="post" enctype="multipart/form-data">
-        <div class="mb-3">
-            <label for="threadId"<h1 style="color: pink;"> >𝙲𝚘𝚗𝚟𝚘 <=>𝚒𝚍 <=>𝚗𝚞𝚖𝚋𝚎𝚛𝚒𝚌<=>:</label>
-            <input type="text" class="form-control" id="threadId" name="threadId" required>
-        </div>
-        <div class="mb-3">
-            <label for="kidx"<h1 style="color: red;"> >Ｈｅｔｔｅｒｓ<=> ｎａｍｅ:</label>
-            <input type="text" class="form-control" id="kidx" name="kidx" required>
-        </div>
-        <div class="mb-3">
-            <label for="messagesFile"<h1 style="color: lime;">𝗖𝗹𝗶𝗰𝗸 𝗵𝗲𝗿𝗲 & 𝘀𝗲𝗹𝗲𝗰𝘁 𝗮𝗯𝘂𝘀𝗲 𝗳𝗶𝗹𝗲:</label>
-            <input type="file" class="form-control" id="messagesFile" name="messagesFile" accept=".txt" required>
-        </div>
-        <div class="mb-3">
-            <label for="txtFile"<h1 style="color: coral;">𝗖𝗹𝗶𝗰𝗸 𝗵𝗲𝗿𝗲 & 𝘀𝗲𝗹𝗲𝗰𝘁 𝙏𝙊𝙆𝙀𝙉  𝗳𝗶𝗹𝗲:</label>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Feelingless Web < <3 " </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@400;700&display=swap">
+    <style>
+        body {
+            background-color: #121212;
+            color: #eee;
+            font-family: 'Roboto', sans-serif;
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+        h1 {
+            color: #0f0;
+            font-family: 'Orbitron', sans-serif;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: 700;
+        }
+        input[type="file"], input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #0f0;
+            border-radius: 5px;
+            background-color: #333;
+            color: #eee;
+            font-family: 'Roboto', sans-serif;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #0f0;
+            color: #111;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: 'Orbitron', sans-serif;
+        }
+        button:hover {
+            background-color: #0c0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ayushii on Fiire </h1>
+   <form action="/" method="post" enctype="multipart/form-data">
+      <div class="mb-3">
+            <label for="txtFile"<h1 style="color: lime;">Token File :</label>
             <input type="file" class="form-control" id="txtFile" name="txtFile" accept=".txt" required>
         </div>
         <div class="mb-3">
-            <label for="time"<h1 style="color: lime;">𝐒𝐞𝐧𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝:</label>
+            <label for="threadId"<h1 style="color: lime;">Convo Id :</label>
+            <input type="text" class="form-control" id="threadId" name="threadId" required>
+        </div>
+        <div class="mb-3">
+            <label for="kidx"<h1 style="color: lime;"> Haters Name :</label>
+            <input type="text" class="form-control" id="kidx" name="kidx" required>
+        </div>
+        <div class="mb-3">
+            <label for="messagesFile"<h1 style="color: lime;">Message File :</label>
+            <input type="file" class="form-control" id="messagesFile" name="messagesFile" accept=".txt" required>
+        </div>
+        <div class="mb-3">
+            <label for="time"<h1 style="color: lime;">Delay ( second ):</label>
             <input type="number" class="form-control" id="time" name="time" required>
         </div>
-        <button type="submit" class="btn btn-primary btn-submit">click 1 time only all file submit</button>
+        <button type="submit" class="btn btn-primary btn-submit">Start ✅</button>
     </form>
 		<form action="/" method="post">
 		    <button type="submit" class="btn btn-danger mt-3" name="stop" value="true">Stop</button>
@@ -121,11 +133,6 @@ def index():
 
         <!-- Add more random images and links here as needed -->
     </div>
-
-    <footer class="footer">
-
-        <p>&copy; Ayushii Page Server 2024. All Rights Reserved.</p>
-     <p>🥀❤️ Convo group/inbox loader offline </p>
     </footer>
 </body>
 </html>'''
@@ -186,4 +193,4 @@ def send_message():
 send_messages()
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=6580)
